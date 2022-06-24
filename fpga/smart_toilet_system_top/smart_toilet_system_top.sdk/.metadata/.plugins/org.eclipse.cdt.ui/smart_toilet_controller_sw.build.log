@@ -1,0 +1,18 @@
+15:30:03 **** Auto Build of configuration Debug for project smart_toilet_controller_sw ****
+make pre-build main-build 
+make: Warning: File `src/subdir.mk' has modification time 4 s in the future
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../smart_toilet_controller_sw_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:22: error: 'XPAR_OLEDCONTROL_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_PS7_OCMC_0_S_AXI_BASEADDR'?
+     initOled(&myOled,XPAR_OLEDCONTROL_0_S00_AXI_BASEADDR);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      XPAR_PS7_OCMC_0_S_AXI_BASEADDR
+../src/helloworld.c:63:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+
+15:30:03 Build Finished (took 205ms)
+

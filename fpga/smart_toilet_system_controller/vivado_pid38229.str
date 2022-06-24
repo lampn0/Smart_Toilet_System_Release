@@ -1,0 +1,225 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 38229
+License: Customer
+
+Current time: 	Thu Jun 23 09:44:19 ICT 2022
+Time zone: 	Indochina Time (Asia/Ho_Chi_Minh)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.62.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 48
+
+Display: :68
+Screen size: 1600x863
+Screen resolution (DPI): 99
+Available screens: 1
+Available disk space: 638 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/new_tools/tools/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/new_tools/tools/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	thinv0
+User home directory: /home/thinv0
+User working directory: /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /new_tools/tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2018.1
+RDI_DATADIR: /new_tools/tools/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /new_tools/tools/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/thinv0/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/thinv0/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/thinv0/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/new_tools/tools/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/vivado.log
+Vivado journal file location: 	/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-38229-dt25-linux
+
+GUI allocated memory:	139 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,085 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 60 MB (+60217kb) [00:00:10]
+// [Engine Memory]: 5,083 MB (+5178329kb) [00:00:10]
+// Tcl Message: start_gui 
+// [GUI Memory]: 64 MB (+970kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,090 MB. GUI used memory: 33 MB. Current time: 6/23/22 9:44:21 AM ICT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+dismissFileChooser();
+// 'i' command handler elapsed time: 3 seconds
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x (w, ch)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (ch): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,179 MB. GUI used memory: 35 MB. Current time: 6/23/22 9:44:52 AM ICT
+selectButton("NEXT", "Next >"); // JButton (j, f)
+setText(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller"); // aj (ai, f)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "smart_toilet_system_controller"); // X (Q, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, f)
+String[] filenames31467 = {"/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/hdl/clock_generator.v", "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/hdl/controller.v", "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/hdl/core.v", "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/hdl/counter.v", "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/hdl/smart_toilet_system_top.v", "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/hdl/warm_up.v"};
+setFileChooser(filenames31467);
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, f)
+String[] filenames16706 = {"/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/libs/dti_reg_blk/hdl/rb_apb_bridge.sv", "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/libs/dti_reg_blk/hdl/register_block.sv", "/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller/src/libs/dti_reg_blk/hdl/regs.v"};
+setFileChooser(filenames16706);
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i (T, f)
+// [GUI Memory]: 70 MB (+3568kb) [00:01:11]
+// [GUI Memory]: 160 MB (+90618kb) [00:01:15]
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", "zedb"); // OverlayTextField (G, f)
+selectTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "ZedBoard Zynq Evaluation and Development Kit ; ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; 1.4 ; xc7z020clg484-1 ; 484 ; d ; 200 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "ZedBoard Zynq Evaluation and Development Kit", 0); // d (O, f)
+// I (f): Manage Board Connections: addNotify
+dismissDialog("Manage Board Connections"); // I (f)
+selectTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "ZedBoard Zynq Evaluation and Development Kit ; ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; 1.4 ; xc7z020clg484-1 ; 484 ; d ; 200 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "ZedBoard Zynq Evaluation and Development Kit", 0); // d (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bv (f):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project smart_toilet_system_controller . -part xc7z020clg484-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 6363.898 ; gain = 11.008 ; free physical = 55906 ; free virtual = 106238 
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part em.avnet.com:zed:part0:1.4 [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 64 seconds
+dismissDialog("Create Project"); // bv (f)
+dismissDialog("New Project"); // f (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,255 MB. GUI used memory: 58 MB. Current time: 6/23/22 9:45:56 AM ICT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 35 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (ch): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// bv (Q):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+dismissDialog("Analyze source files for top modules"); // bv (Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectButton("FINISH", "Finish"); // JButton (j, Q)
+// 'q' command handler elapsed time: 3 seconds
+dismissDialog("Create and Package New IP"); // Q (ch)
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: ipx::package_project -root_dir /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller -vendor user.org -library user -taxonomy /UserIP 
+// Tcl Message: INFO: [IP_Flow 19-5169] Module 'smart_toilet_system_top' uses SystemVerilog sources with a Verilog top file. These SystemVerilog files will not be analysed by the packager. INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). 
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment Required is not set for this core. INFO: [IP_Flow 19-2187] The Product Guide file is missing. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bv (ch):  IP Packager : addNotify
+dismissDialog("IP Packager"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 5,315 MB. GUI used memory: 63 MB. Current time: 6/23/22 9:46:36 AM ICT
+// TclEventType: DG_GRAPH_GENERATED
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, ch)
+selectButton(PAResourceCommand.PACommandNames_PACKAGER_AUTO_INFER_INTERFACE, "Package IP_packager_auto_infer_interface"); // B (f, ch)
+selectButton(PAResourceCommand.PACommandNames_PACKAGER_AUTO_INFER_INTERFACE, "Package IP_packager_auto_infer_interface"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_AUTO_INFER_INTERFACE
+// e (ch): Auto Infer Interface Chooser: addNotify
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Advanced ; ", 6); // ai (O, e)
+// Elapsed time: 32 seconds
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "apb_rtl ; ", 13, "apb_rtl", 0, false); // ai (O, e)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (e)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'c' command handler elapsed time: 37 seconds
+// Tcl Message: ipx::infer_bus_interfaces xilinx.com:interface:apb_rtl:1.0 [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'interface_apb' of definition 'xilinx.com:interface:apb:1.0' (from TCL Argument). 
+dismissDialog("Auto Infer Interface Chooser"); // e (ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, ch)
+// Elapsed time: 10 seconds
+setText(PAResourceItoN.IdentificationContentPanel_NAME, "system_controller"); // z (al, ch)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+setText(PAResourceItoN.IdentificationContentPanel_DISPLAY_NAME, "system_controller"); // z (al, ch)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+setText(PAResourceItoN.IdentificationContentPanel_DESCRIPTION, "system_controller"); // z (al, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, ch)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: LOAD_FEATURE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, ch)
+selectButton(PAResourceQtoS.ReviewContentPanel_PACKAGE_IP, "Package IP"); // a (c, ch)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bv (ch):  Package IP : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller'. 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 72 MB. Current time: 6/23/22 10:16:36 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 68 MB. Current time: 6/23/22 10:46:36 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 68 MB. Current time: 6/23/22 11:16:36 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 68 MB. Current time: 6/23/22 11:46:36 AM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 69 MB. Current time: 6/23/22 12:16:36 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 68 MB. Current time: 6/23/22 12:46:37 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 68 MB. Current time: 6/23/22 1:16:36 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,327 MB. GUI used memory: 67 MB. Current time: 6/23/22 1:46:37 PM ICT

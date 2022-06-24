@@ -1,0 +1,114 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun 23 14:07:54 2022
+# Process ID: 6704
+# Current directory: /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top
+# Command line: vivado smart_toilet_system_top.xpr
+# Log file: /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/vivado.log
+# Journal file: /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project smart_toilet_system_top.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/oled_controller'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_system_controller_0_1
+
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 6439.199 ; gain = 194.316 ; free physical = 48634 ; free virtual = 92916
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/oled_controller'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_ip_catalog
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_ip_catalog
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/oled_controller'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_controller'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:system_controller:1.0 [get_ips  design_1_system_controller_0_1] -log ip_upgrade.log
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- user.org:user:oled_controller:1.0 - oled_controller_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:axi_apb_bridge:3.0 - axi_apb_bridge_0
+Adding cell -- user.org:user:system_controller:1.0 - system_controller_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_CLK0(clk) and /system_controller_0/pclk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /rst_ps7_0_100M/peripheral_aresetn(rst) and /system_controller_0/presetn(undef)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file </data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd>
+Upgrading '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_system_controller_0_1 from system_controller 1.0 to system_controller 1.0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /rst_ps7_0_100M/peripheral_aresetn(rst) and /system_controller_0_upgraded_ipi/presetn(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_CLK0(clk) and /system_controller_0_upgraded_ipi/pclk(undef)
+Wrote  : </data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 6582.270 ; gain = 0.000 ; free physical = 47457 ; free virtual = 91800
+export_ip_user_files -of_objects [get_ips design_1_system_controller_0_1] -no_script -sync -force -quiet
+validate_bd_design
+WARNING: [BD 41-927] Following properties on pin /oled_controller_0/oled_spi_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_oled_controller_0_0_oled_spi_clk 
+WARNING: [BD 41-927] Following properties on pin /oled_controller_0/s00_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+generate_target all [get_files  /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : </data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/system_controller_0/paddr'(8) to net 'axi_apb_bridge_0_APB_M_PADDR'(32) - Only lower order bits will be connected.
+VHDL Output written to : /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/synth/design_1.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/system_controller_0/paddr'(8) to net 'axi_apb_bridge_0_APB_M_PADDR'(32) - Only lower order bits will be connected.
+VHDL Output written to : /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block oled_controller_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_apb_bridge_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_controller_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+export_ip_user_files -of_objects [get_files /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd] -directory /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.ip_user_files/sim_scripts -ip_user_files_dir /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.ip_user_files -ipstatic_source_dir /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.cache/compile_simlib/modelsim} {questa=/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.cache/compile_simlib/questa} {ies=/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.cache/compile_simlib/ies} {xcelium=/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.cache/compile_simlib/xcelium} {vcs=/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.cache/compile_simlib/vcs} {riviera=/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd] -top
+import_files -force -norecurse /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper -files [get_files /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd] -top
+import_files -force -norecurse /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper -files [get_files /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd] -top
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/imports/hdl/design_1_wrapper.v'
+import_files -force -norecurse /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 48
+[Thu Jun 23 14:12:08 2022] Launched synth_1...
+Run output will be captured here: /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.runs/synth_1/runme.log
+[Thu Jun 23 14:12:08 2022] Launched impl_1...
+Run output will be captured here: /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/runme.log
+file copy -force /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file copy -force /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
