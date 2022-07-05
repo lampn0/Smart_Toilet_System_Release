@@ -1,0 +1,42 @@
+Project ES: Bồn cầu thông minh
+- Chức năng:
++ Chế độ làm ấm
+> Chế độ nước ấm: Có thể điều chỉnh nhiệt độ theo theo nhiệt độ môi trường 
+> Chế độ làm ấm nắp ngồi: dựa vào cảm biến nhiệt độ
+
++ Chế độ rửa làm sạch:
+> Chế độ rửa sau (Chế độ rửa hậu môn): chế độ vòi rửa là có thể làm sạch bộ phận hậu môn một cách dễ dàng. (Shower Button)
+> Chế độ rửa trước (Chế độ rửa phụ nữ): Đây là một ưu điểm rất nổi bật của bồn cầu thông minh. Đặc biệt là khi chị em đi nhẹ và tới tháng. (Bidet Button)
+//Cả hai chế độ rửa đều có 3 mức độ của tia nước xịt: LOW (chủ yếu dành cho phụ nữ), MEDIUM, HIGH. Mỗi mức độ sẽ có thời gian xịt nhất định hoặc dựa vào cảm biến khi người dùng đứng dậy sẽ ngừng xịt 
+> Chế độ rửa massage: Chế độ rửa massage theo chu kỳ tuần hoàn, lặp đi lặp lại từ yếu đến mạnh. Phù hợp với những người có bệnh về tiêu hóa. Đồng thời, chức năng này cũng rất thích hợp và mang lại nhiều lợi ích cho phụ nữ.
+
++ Chế độ sấy khô (Dry Button): có 2 mức độ: LOW, HIGH
+
++ Chế độ xả nước tự động: dựa theo thời gian người dùng ở lại với bồn cầu và sau khi người dùng đứng dậy cảm biến sẽ phát hiện và khởi động hệ thống xả (tuy nhiên vẫn tích hợp nút xả cơ).
+> Đi nhẹ: với nam giới chưa khả thi (đang suy nghĩ), với nữ giới có thể dựa vào thời gian để đưa ra lượng nước xả phù hợp với đi nhẹ
+> Đi nặng: dựa vào thời gian người dùng ở lại để đưa ra lượng nước xả phù hợp với đi nặng
+
++ Chế độ tự động đóng mở nắp đậy
+
++ Thêm đèn led tạo cảm giác thoải mái, đèn tự động phát sáng vào ban đêm
+
++ Thông báo: khi rửa xong hoặc sấy xong
+
+
+- Code bằng HDL
+- Các state theo tư thế đứng, ngồi, xả nút, nhiệt độ nước
+- Phần mềm: đọc nhiệt độ từ cảm biến đưa vào thanh ghi 
+- Phần cứng: GPIO, sensors
+
+/*
+REAR SOFT: Tính năng rửa sau
+PULSATING: Điều khiển chuyển động tia nước
+FRONT/WIDE: Tính năng rửa trước
+PRESSURE: Điều chỉnh cường độ
+OSCILLATING: Tính năng điều chỉnh giao động tới lui
+POSITION: Tính năng điều chỉnh vị trí ngồi
+DRYER: Tính năng sấy khô
+SETTING: Nút cài đặt mặc định
+*/
+
+
