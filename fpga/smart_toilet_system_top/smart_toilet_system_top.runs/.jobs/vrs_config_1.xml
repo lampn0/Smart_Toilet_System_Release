@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="synth_1" LaunchDir="/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-	<Run Id="impl_1" LaunchDir="/data5/workspace/thinv0/BTL_NHUNG/smart_toilet_system/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
-		<Parent Id="synth_1"/>
-	</Run>
-</Runs>
-
