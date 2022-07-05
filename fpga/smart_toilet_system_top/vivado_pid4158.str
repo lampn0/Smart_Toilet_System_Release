@@ -1,0 +1,404 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 4158
+License: Customer
+
+Current time: 	Tue Jun 28 14:05:22 ICT 2022
+Time zone: 	Indochina Time (Asia/Ho_Chi_Minh)
+
+OS: Ubuntu
+OS Version: 5.13.0-44-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 56 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	nguyenvietthi
+User home directory: /home/nguyenvietthi
+User working directory: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado
+HDI_APPROOT: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1
+RDI_DATADIR: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/nguyenvietthi/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/nguyenvietthi/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/nguyenvietthi/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.log
+Vivado journal file location: 	/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-4158-nguyenvietthi
+
+GUI allocated memory:	148 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 872 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 61 MB (+61414kb) [00:00:14]
+// [Engine Memory]: 852 MB (+741620kb) [00:00:14]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: smart_toilet_system_top.xpr. Version: Vivado v2018.1 
+// [GUI Memory]: 72 MB (+8038kb) [00:00:15]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project smart_toilet_system_top.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 872 MB. GUI used memory: 36 MB. Current time: 6/28/22 2:05:25 PM ICT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 896 MB (+2148kb) [00:00:40]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,024 MB (+86384kb) [00:00:50]
+// Tcl Message: open_project smart_toilet_system_top.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_controller'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller_v2'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/oled_controller'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,060 MB. GUI used memory: 47 MB. Current time: 6/28/22 2:05:59 PM ICT
+// Project name: smart_toilet_system_top; location: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:38 . Memory (MB): peak = 6204.086 ; gain = 188.027 ; free physical = 3236 ; free virtual = 21402 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,080 MB (+4961kb) [00:00:55]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (ch, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (ch): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 4 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (ch)
+// Tcl Message: file copy -force /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (ch, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (ch): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (ch)
+// Tcl Message: launch_sdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 79 MB (+3753kb) [00:01:20]
+// [GUI Memory]: 84 MB (+712kb) [00:02:14]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 84 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (ch, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (ch): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (ch)
+// Tcl Message: file copy -force /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (ch, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (ch): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (ch)
+// Tcl Message: launch_sdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 61 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (ch, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (ch): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+dismissDialog("Export Hardware"); // X (ch)
+// Tcl Message: file mkdir /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk 
+// Tcl Message: file copy -force /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (ch, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (ch): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (ch)
+// Tcl Message: launch_sdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 96 MB (+8995kb) [00:03:53]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 101 MB (+360kb) [00:18:48]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,110 MB. GUI used memory: 46 MB. Current time: 6/28/22 2:36:00 PM ICT
+// Elapsed time: 3132 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,159 MB. GUI used memory: 42 MB. Current time: 6/28/22 3:01:15 PM ICT
+// [Engine Memory]: 1,200 MB (+70084kb) [00:56:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,294 MB. GUI used memory: 42 MB. Current time: 6/28/22 3:01:35 PM ICT
+// [Engine Memory]: 1,377 MB (+122743kb) [00:56:32]
+// [Engine Memory]: 1,473 MB (+27786kb) [00:56:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,498 MB. GUI used memory: 42 MB. Current time: 6/28/22 3:01:50 PM ICT
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,791 MB. GUI used memory: 42 MB. Current time: 6/28/22 3:01:56 PM ICT
+// [Engine Memory]: 1,791 MB (+256625kb) [00:56:50]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,919 MB (+40362kb) [00:56:52]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 200 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Device 21-403] Loading part xc7z020clg484-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.29 . Memory (MB): peak = 6912.844 ; gain = 0.000 ; free physical = 487 ; free virtual = 19858 
+// Tcl Message: Restored from archive | CPU: 0.290000 secs | Memory: 3.993713 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.29 . Memory (MB): peak = 6912.844 ; gain = 0.000 ; free physical = 487 ; free virtual = 19858 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 1 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 1 instances  
+// [GUI Memory]: 109 MB (+2704kb) [00:56:53]
+// ExpRunCommands.openImplResults elapsed time: 47.4s
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:47 . Memory (MB): peak = 7075.672 ; gain = 614.227 ; free physical = 387 ; free virtual = 19767 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 120 MB (+5156kb) [00:56:57]
+// 'dO' command handler elapsed time: 50 seconds
+// Elapsed time: 51 seconds
+dismissDialog("Open Implemented Design"); // bv (ch)
+// [Engine Memory]: 2,046 MB (+32348kb) [00:56:57]
+selectTab((HResource) null, (HResource) null, "Power", 5); // aE (Q, ch)
+floatView(PAResourceOtoP.PAViews_POWER, "Power - impl_1 (saved)"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_POWER: Power: float view
+maximizeFrame(PAResourceOtoP.PAViews_POWER, "Power - impl_1 (saved)"); // aw (aE, aG)
+selectMenuItem(RDIResource.HEditorPane_SELECT_ALL, "Select All"); // ac (ai, aG)
+selectButton(RDIResource.ReportNavigationHolder_EXPAND_ALL, (String) null); // B (f, aG)
+selectButton(RDIResource.ReportNavigationHolder_COLLAPSE_ALL, (String) null); // B (f, aG)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,039 MB. GUI used memory: 99 MB. Current time: 6/28/22 3:02:19 PM ICT
+selectButton(RDIResource.ReportNavigationHolder_COLLAPSE_ALL, (String) null); // B (f, aG)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,039 MB. GUI used memory: 98 MB. Current time: 6/28/22 3:02:20 PM ICT
+selectButton(RDIResource.ReportNavigationHolder_EXPAND_ALL, (String) null); // B (f, aG)
+dockFrame(PAResourceOtoP.PAViews_POWER, "Power - impl_1 (saved)"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_POWER, "Power - impl_1 (saved)"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_POWER: Power: dock view
+selectTab((HResource) null, (HResource) null, "Methodology", 6); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Timing", 7); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aE (Q, ch)
+// [GUI Memory]: 130 MB (+4648kb) [00:57:31]
+// Elapsed time: 49 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 185365, 340347); // D (I, ch)
+// Device select: 'Tile - CLBLM_R_X23Y53'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 507, 352, 1194, 591); // U (k, ch)
+// PAPropertyPanels.initPanels (Tile: CLBLM_R_X23Y53) elapsed time: 0.2s
+// Device view-level: 0.3
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 2,045 MB. GUI used memory: 94 MB. Current time: 6/28/22 3:03:28 PM ICT
+// Device view-level: 1.5
+// Device view-level: 1.8
+// Device view-level: 2.6
+// Device view-level: 2.9
+// Device view-level: 3.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,046 MB. GUI used memory: 101 MB. Current time: 6/28/22 3:03:29 PM ICT
+// Device view-level: 4.1
+// Device view-level: 3.8
+// Device view-level: 3.5
+// Device view-level: 3.2
+// [GUI Memory]: 137 MB (+191kb) [00:58:26]
+// Device view-level: 3.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,048 MB. GUI used memory: 116 MB. Current time: 6/28/22 3:03:31 PM ICT
+// Device view-level: 4.1
+// Device view-level: 4.4
+// Device view-level: 4.7
+// Device view-level: 5.0
+// Device view-level: 5.3
+// HMemoryUtils.trashcanNow. Engine heap size: 2,048 MB. GUI used memory: 131 MB. Current time: 6/28/22 3:03:33 PM ICT
+// Device view-level: 5.6
+// Device view-level: 5.3
+// Device view-level: 5.0
+// Device view-level: 4.7
+// [GUI Memory]: 144 MB (+764kb) [00:58:28]
+// Device view-level: 4.4
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 143 MB. Current time: 6/28/22 3:03:37 PM ICT
+// Device view-level: 4.1
+// Device view-level: 3.8
+// Device view-level: 3.5
+// Device view-level: 3.2
+// Device view-level: 2.9
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 123 MB. Current time: 6/28/22 3:03:37 PM ICT
+// Device view-level: 2.6
+// Device view-level: 2.3
+// Device view-level: 1.8
+// Device view-level: 1.2
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 117 MB. Current time: 6/28/22 3:03:39 PM ICT
+// Device view-level: 0.0
+// Device view-level: 0.3
+// Device view-level: 0.9
+// Device view-level: 1.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 104 MB. Current time: 6/28/22 3:03:40 PM ICT
+// Device view-level: 1.5
+// Device view-level: 1.8
+// Device view-level: 2.0
+// Device view-level: 2.3
+// Device view-level: 2.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 104 MB. Current time: 6/28/22 3:03:41 PM ICT
+// Device view-level: 2.9
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 125 MB. Current time: 6/28/22 3:03:43 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 109 MB. Current time: 6/28/22 3:03:44 PM ICT
+// Device view-level: 3.2
+// Device view-level: 3.5
+// Device view-level: 3.8
+// Device view-level: 4.1
+// Device view-level: 4.4
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 109 MB. Current time: 6/28/22 3:03:45 PM ICT
+// Device view-level: 4.7
+// Device view-level: 4.4
+// Device view-level: 3.8
+// Device view-level: 3.5
+// Device view-level: 3.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 138 MB. Current time: 6/28/22 3:03:46 PM ICT
+// Device view-level: 2.9
+// Device view-level: 2.6
+// Device view-level: 1.5
+// Device view-level: 1.2
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 141 MB. Current time: 6/28/22 3:03:47 PM ICT
+// Device view-level: 0.6
+// Device view-level: 0.3
+// [GUI Memory]: 153 MB (+1413kb) [00:58:42]
+// Device view-level: 0.0
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 159 MB. Current time: 6/28/22 3:03:47 PM ICT
+// Device view-level: 0.3
+// Device view-level: 0.6
+// [GUI Memory]: 162 MB (+1441kb) [00:58:43]
+// Device view-level: 0.9
+// Device view-level: 1.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 122 MB. Current time: 6/28/22 3:03:50 PM ICT
+// Device view-level: 1.5
+// Device view-level: 1.8
+// Device view-level: 2.0
+// Device view-level: 2.3
+// Device view-level: 2.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 139 MB. Current time: 6/28/22 3:03:50 PM ICT
+// Device view-level: 2.9
+// Device view-level: 3.2
+// Device view-level: 3.5
+// Device view-level: 3.8
+// Device view-level: 4.1
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 107 MB. Current time: 6/28/22 3:03:51 PM ICT
+// Device view-level: 5.0
+// Device view-level: 5.3
+// Device view-level: 5.6
+// Device view-level: 5.3
+// Device view-level: 5.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 130 MB. Current time: 6/28/22 3:03:53 PM ICT
+// Device view-level: 4.7
+// Device view-level: 4.4
+// Device view-level: 4.1
+// Device view-level: 3.8
+// Device view-level: 3.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 130 MB. Current time: 6/28/22 3:03:53 PM ICT
+// Device view-level: 3.2
+// Device view-level: 2.9
+// Device view-level: 2.6
+// Device view-level: 2.3
+// Device view-level: 2.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 133 MB. Current time: 6/28/22 3:03:53 PM ICT
+// Device view-level: 1.8
+// Device view-level: 1.5
+// Device view-level: 1.2
+// Device view-level: 0.9
+// Device view-level: 0.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 151 MB. Current time: 6/28/22 3:03:54 PM ICT
+// Device view-level: 0.3
+// Device view-level: 0.6
+// Device view-level: 0.9
+// Device view-level: 1.2
+// Device view-level: 1.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 113 MB. Current time: 6/28/22 3:03:58 PM ICT
+// Device view-level: 2.3
+// Device view-level: 2.6
+// Device view-level: 2.9
+// Device view-level: 3.2
+// Device view-level: 3.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 107 MB. Current time: 6/28/22 3:03:59 PM ICT
+// Device view-level: 3.8
+// Device view-level: 4.1
+// Device view-level: 4.4
+// Device view-level: 4.7
+// Device view-level: 5.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 111 MB. Current time: 6/28/22 3:04:00 PM ICT
+// Device view-level: 5.3
+// Device view-level: 5.6
+// Device view-level: 5.3
+// Device view-level: 5.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 107 MB. Current time: 6/28/22 3:04:03 PM ICT
+// Device view-level: 5.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,072 MB. GUI used memory: 98 MB. Current time: 6/28/22 3:13:55 PM ICT

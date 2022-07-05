@@ -1,0 +1,133 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 71382
+License: Customer
+
+Current time: 	Tue Jun 28 13:54:44 ICT 2022
+Time zone: 	Indochina Time (Asia/Ho_Chi_Minh)
+
+OS: Ubuntu
+OS Version: 5.13.0-44-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 56 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	nguyenvietthi
+User home directory: /home/nguyenvietthi
+User working directory: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado
+HDI_APPROOT: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1
+RDI_DATADIR: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/nguyenvietthi/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/nguyenvietthi/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/nguyenvietthi/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.log
+Vivado journal file location: 	/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-71382-nguyenvietthi
+
+GUI allocated memory:	196 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 925 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 70 MB (+70876kb) [00:00:08]
+// [Engine Memory]: 913 MB (+805722kb) [00:00:08]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: smart_toilet_system_top.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project smart_toilet_system_top.xpr 
+// [GUI Memory]: 80 MB (+7319kb) [00:00:09]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 963 MB. GUI used memory: 36 MB. Current time: 6/28/22 1:54:46 PM ICT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,068 MB (+114970kb) [00:00:15]
+// Tcl Message: open_project smart_toilet_system_top.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_controller'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller_v2'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/oled_controller'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 6195.977 ; gain = 168.527 ; free physical = 1454 ; free virtual = 19601 
+// Project name: smart_toilet_system_top; location: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,123 MB (+1536kb) [00:00:20]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (ch)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (ch): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (ch)
+// Tcl Message: file copy -force /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (ch): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (ch)
+// Tcl Message: launch_sdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 170 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aE (Q, ch)
+selectTab(PAResourceItoN.LogView_TABBED_PANE, (HResource) null, "Implementation", 1); // i (A, ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)

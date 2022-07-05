@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 28 10:29:36 2022
+# Process ID: 4956
+# Current directory: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller
+# Command line: vivado dht11_controller.xpr
+# Log file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/vivado.log
+# Journal file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project dht11_controller.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 6168.203 ; gain = 147.793 ; free physical = 734 ; free virtual = 19341
+update_compile_order -fileset sources_1
+add_files -norecurse /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/src/dht11_pkg_syn.vhd
+WARNING: [filemgmt 56-12] File '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/src/dht11_pkg_syn.vhd' cannot be added to the project because it already exists in the project, skipping this file
+ipx::open_ipxact_file /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/component.xml
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/src/debouncer.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/src/dht11_sa.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/src/dht11_sa_top.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/src/dht11_pkg_syn.vhd'.
+WARNING: [IP_Flow 19-5226] Project source file '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/component.xml' ignored by IP packager.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 28 10:46:38 2022...

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 28 10:29:36 2022
+# Process ID: 4956
+# Current directory: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller
+# Command line: vivado dht11_controller.xpr
+# Log file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/vivado.log
+# Journal file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project dht11_controller.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/src/dht11_pkg_syn.vhd
+ipx::open_ipxact_file /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller/component.xml

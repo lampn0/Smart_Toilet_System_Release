@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jul  4 17:43:41 2022
+# Process ID: 7352
+# Current directory: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top
+# Command line: vivado smart_toilet_system_top.xpr
+# Log file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.log
+# Journal file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project smart_toilet_system_top.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_controller'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller_v2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/oled_controller'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:41 . Memory (MB): peak = 6188.227 ; gain = 181.742 ; free physical = 837 ; free virtual = 20063
+update_compile_order -fileset sources_1
+open_bd_design {/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- user.org:user:oled_controller:1.0 - oled_controller_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- user.org:user:system_controller:1.0 - system_controller_0
+Adding cell -- xilinx.com:ip:axi_apb_bridge:3.0 - axi_apb_bridge_0
+Adding cell -- user.org:user:dht11_controller_v1:1.0 - dht11_controller_v1_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_CLK1(clk) and /system_controller_0/pclk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /rst_ps7_0_100M/peripheral_aresetn(rst) and /system_controller_0/presetn(undef)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file </media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 6339.223 ; gain = 0.000 ; free physical = 638 ; free virtual = 19977
+file copy -force /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

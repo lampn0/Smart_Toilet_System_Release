@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 28 13:54:16 2022
+# Process ID: 71382
+# Current directory: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top
+# Command line: vivado smart_toilet_system_top.xpr
+# Log file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.log
+# Journal file: /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project smart_toilet_system_top.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_controller'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/dht11_controller_v2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/oled_controller'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/nguyenvietthi/DATA/linux_tools/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 6195.977 ; gain = 168.527 ; free physical = 1454 ; free virtual = 19601
+update_compile_order -fileset sources_1
+file copy -force /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.runs/impl_1/design_1_wrapper.sysdef /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk -hwspec /media/nguyenvietthi/DATA/nam4/HTN/embedded_system_20212/fpga/smart_toilet_system_top/smart_toilet_system_top.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
